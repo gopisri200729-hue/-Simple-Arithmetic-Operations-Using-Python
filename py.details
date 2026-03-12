@@ -1,0 +1,56 @@
+1. Project Title 
+Simple Arithmetic Operations Using Python 
+
+2. Problem Statement 
+To design a Python program that performs basic arithmetic operations 
+(subtraction, multiplication, division, modulus) without using functions. The 
+program demonstrates the use of operators, input/output statements, and logical 
+thinking for beginners. 
+
+3. Objective 
+ To learn how to take input from the user 
+ To perform basic arithmetic operations using -, *, /, % 
+ To display results using print statements 
+ To improve logical thinking for simple programs 
+
+4. Tools Used 
+ Python 3 
+ VS Code / IDLE 
+5. Description 
+The program asks the user to enter two numbers, then calculates and displays 
+the difference, product, division, and remainder using simple operators. 
+
+6. Algorithm 
+1. Start the program 
+2. Take two numbers as input from the user 
+3. Calculate difference using - operator 
+4. Calculate product using * operator 
+5. Calculate division using / operator (check for zero) 
+6. Calculate remainder using % operator (check for zero) 
+7. Display all results 
+8. Stop 
+
+7. Program (Python Code) 
+num1 = float(input("Enter first number: ")) 
+num2 = float(input("Enter second number: ")) 
+difference = num1 - num2 
+product = num1 * num2 
+if num2 != 0: 
+division = num1 / num2 
+remainder = num1 % num2 
+else: 
+division = "Undefined (division by zero)" 
+remainder = "Undefined (division by zero)" 
+print("Difference:", difference) 
+print("Product:", product) 
+print("Division:", division) 
+print("Remainder:", remainder) 
+
+9. Result 
+The program successfully performs subtraction, multiplication, division, and 
+modulus operations using simple operators and displays the results. 
+
+10. Conclusion 
+This project demonstrates how Python can perform basic arithmetic 
+operations using simple operators and input/output statements. It helps 
+beginners understand the fundamentals of operators and numerical calculations. 
